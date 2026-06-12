@@ -1,0 +1,6 @@
+{
+  "name": "Spy Tails Book Website",
+  "description": "Book landing page for Spy Tails: The Animal Kingdom's Secret Role in Espionage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
