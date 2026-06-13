@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen text-text-main selection:bg-accent-amber selection:text-black relative">
+    <div className="min-h-screen text-text-main selection:bg-accent-amber selection:text-black relative overflow-x-hidden w-full">
       <div 
         className="fixed inset-0 opacity-10 pointer-events-none z-0" 
         style={{ backgroundImage: 'radial-gradient(var(--color-accent-amber) 1px, transparent 1px)', backgroundSize: '40px 40px' }}
