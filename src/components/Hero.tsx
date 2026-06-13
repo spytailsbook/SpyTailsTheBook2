@@ -1,3 +1,5 @@
+import coverImg from '../../assets/COVER.jpg';
+
 export default function Hero() {
   return (
     <section 
@@ -53,7 +55,7 @@ export default function Hero() {
           <div className="bg-secondary-dark border-l border-t border-white/10 p-6 md:p-10 flex flex-col items-center justify-center relative min-h-[300px] md:min-h-[460px]">
             <div className="absolute inset-0 bg-gradient-to-br from-transparent via-accent-amber/5 to-black/40 pointer-events-none"></div>
             <img 
-              src="https://raw.githubusercontent.com/spytailsbook/spytails/main/Cover.jpg" 
+              src={coverImg} 
               className="w-[200px] sm:w-[260px] md:w-full md:max-w-[320px] shadow-2xl border border-white/5 grayscale-[0.2] hover:grayscale-0 transition-all duration-500 z-10" 
               alt="Spy Tails Book Cover"
             />
