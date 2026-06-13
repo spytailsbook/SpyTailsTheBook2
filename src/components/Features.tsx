@@ -50,10 +50,10 @@ export default function Features() {
   return (
     <section
       id="chapters"
-      className="bg-primary-dark py-24 px-6 md:px-12 relative z-10 block"
+      className="bg-primary-dark py-12 md:py-24 px-6 md:px-12 relative z-10 block"
     >
-      <div className="max-w-[1200px] mx-auto border-t border-accent-amber/30 pt-16 mt-8">
-        <div className="mb-14 flex items-center justify-between">
+      <div className="max-w-[1200px] mx-auto border-t border-accent-amber/30 pt-10 md:pt-16 mt-6 md:mt-8">
+        <div className="mb-8 md:mb-14 flex items-center justify-between">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
             <span className="text-accent-amber mr-4">Chapter</span>Dossiers
           </h2>

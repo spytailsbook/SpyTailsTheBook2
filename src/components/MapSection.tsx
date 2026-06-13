@@ -173,7 +173,7 @@ export default function MapSection() {
   return (
     <section
       id="global-activity"
-      className="py-16 md:py-24 px-4 sm:px-6 md:px-12 bg-primary-dark relative z-10 border-t border-white/10 mt-8 md:mt-12 block"
+      className="py-12 md:py-24 px-4 sm:px-6 md:px-12 bg-primary-dark relative z-10 border-t border-white/10 mt-6 md:mt-12 block"
     >
       <div className="max-w-[1200px] mx-auto w-full">
         <div className="mb-10 md:mb-14 flex items-center justify-between">

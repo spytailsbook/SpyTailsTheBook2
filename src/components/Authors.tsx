@@ -2,7 +2,7 @@ export default function Authors() {
   return (
     <section
       id="authors"
-      className="py-24 px-6 md:px-12 bg-primary-dark relative z-10 border-t border-white/10 mt-12 block"
+      className="py-12 md:py-24 px-6 md:px-12 bg-primary-dark relative z-10 border-t border-white/10 mt-8 md:mt-12 block"
     >
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
         <div className="md:col-span-4 border-l border-white/10 pl-6 md:pl-8 flex flex-col justify-center">

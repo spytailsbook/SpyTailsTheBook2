@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <header className="flex flex-col sm:flex-row items-center justify-between px-6 py-6 md:py-8 z-50 sticky top-0 bg-primary-dark/95 backdrop-blur border-b border-accent-amber/30 gap-4 sm:gap-0">
+    <header className="flex flex-col sm:flex-row items-center justify-between px-6 py-4 md:py-8 z-50 sticky top-0 bg-primary-dark/95 backdrop-blur border-b border-accent-amber/30 gap-4 sm:gap-0">
       <div className="text-xl md:text-2xl font-bold tracking-tight flex items-center gap-3 md:gap-4 text-white">
         <span className="h-[1px] w-6 md:w-12 bg-accent-amber"></span>
         Spy Tails
