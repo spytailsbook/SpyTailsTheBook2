@@ -9,8 +9,18 @@ import Features from './components/Features';
 import MapSection from './components/MapSection';
 import Authors from './components/Authors';
 import Footer from './components/Footer';
+import ReactGA from 'react-ga4';
+import { useEffect } from 'react';
 
 export default function App() {
+  useEffect(() => {
+    const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
+    if (measurementId) {
+      ReactGA.initialize(measurementId);
+      ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+    }
+  }, []);
+
   return (
     <div className="min-h-screen text-text-main selection:bg-accent-amber selection:text-black relative w-full">
       <div 
