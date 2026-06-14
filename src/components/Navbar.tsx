@@ -9,19 +9,19 @@ export default function Navbar() {
       <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
         <nav className="flex flex-wrap justify-center gap-3 md:gap-8 text-[9px] md:text-[10px] uppercase tracking-[0.2em] font-semibold">
           <a
-            href="#about-book"
+            href="#overview"
             className="text-text-main hover:text-accent-amber transition-colors"
           >
             Overview
           </a>
           <a
-            href="#chapters"
+            href="#dossiers"
             className="text-text-main hover:text-accent-amber transition-colors"
           >
             Dossiers
           </a>
           <a
-            href="#global-activity"
+            href="#map"
             className="text-text-main hover:text-accent-amber transition-colors"
           >
             Map

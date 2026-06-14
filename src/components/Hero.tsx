@@ -3,7 +3,7 @@ import coverImg from "../../assets/COVER.jpg";
 export default function Hero() {
   return (
     <section
-      id="about-book"
+      id="overview"
       className="relative min-h-[80vh] flex items-center px-6 md:px-12 py-10 md:py-20 z-10"
     >
       <div className="max-w-[1200px] mx-auto w-full grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16 items-center">

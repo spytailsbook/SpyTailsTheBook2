@@ -49,7 +49,7 @@ const chapters = [
 export default function Features() {
   return (
     <section
-      id="chapters"
+      id="dossiers"
       className="bg-primary-dark py-12 md:py-24 px-6 md:px-12 relative z-10 block"
     >
       <div className="max-w-[1200px] mx-auto border-t border-accent-amber/30 pt-10 md:pt-16 mt-6 md:mt-8">
