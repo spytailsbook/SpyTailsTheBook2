@@ -55,12 +55,14 @@ export default function Hero() {
         </div>
 
         {/* Right Column: Visual */}
-        <div className="md:col-span-5 flex flex-col relative w-full mt-2 md:mt-0">
-          <div className="bg-secondary-dark border-l border-t border-white/10 p-6 md:p-10 flex flex-col items-center justify-center relative min-h-[300px] md:min-h-[460px]">
-            <div className="absolute inset-0 bg-gradient-to-br from-transparent via-accent-amber/5 to-black/40 pointer-events-none"></div>
+        <div className="md:col-span-5 flex items-center justify-center relative w-full mt-6 md:mt-0">
+          <div className="relative group z-10">
+            {/* Ambient golden aura glow behind the cover on hover */}
+            <div className="absolute -inset-1.5 bg-gradient-to-r from-accent-amber to-amber-500 rounded-lg blur-2xl opacity-15 group-hover:opacity-60 transition duration-700 ease-out pointer-events-none"></div>
+            
             <img
               src={coverImg}
-              className="w-[200px] sm:w-[260px] md:w-full md:max-w-[320px] shadow-2xl border border-white/5 grayscale-[0.2] hover:grayscale-0 transition-all duration-500 z-10"
+              className="relative w-[210px] sm:w-[280px] md:w-full md:max-w-[340px] shadow-[0_25px_60px_-15px_rgba(0,0,0,0.9)] border border-white/10 grayscale-[0.1] hover:grayscale-0 transition-all duration-500 ease-out transform hover:scale-[1.04] hover:-translate-y-2.5 z-10"
               alt="Spy Tails Book Cover"
             />
           </div>

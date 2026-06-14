@@ -24,7 +24,7 @@ const locations: LocationData[] = [
     name: "Washington, D.C., USA",
     coordinates: [-77.0369, 38.9072],
     description:
-      "Location of the target for a simulated avian espionage operation, and the Navy Yard, actively photographed by camera-equipped birds.",
+      "Location for simulated avian photoreconnaissance operations around the Navy Yard and Andrews Air Force Base, where camera-equipped birds actively photographhed unsuspecting workers.",
     category: "Avian Ops",
   },
   {
@@ -32,7 +32,7 @@ const locations: LocationData[] = [
     name: "Sevastopol, Crimea",
     coordinates: [33.5224, 44.6166],
     description:
-      "The location of a highly secretive Soviet marine mammal program operating in the Black Sea waters.",
+      "Location of marine mammal pens first established by the Soviet Union and now used by the Russian military for operations in the Black Sea.",
     category: "Aquatic Ops",
   },
   {
@@ -48,7 +48,7 @@ const locations: LocationData[] = [
     name: "Iran",
     coordinates: [53.688, 32.4279],
     description:
-      "Arrested 14 squirrels for alleged espionage in 2007, and later detained environmentalists claiming their pet lizards were 'nuclear spies'.",
+      "The Iranian regime arrested 14 squirrels for alleged espionage and later detained environmentalists claiming their pet lizards were 'nuclear spies'.",
     category: "Counter-Espionage",
   },
   {
@@ -56,7 +56,7 @@ const locations: LocationData[] = [
     name: "Japan",
     coordinates: [139.6917, 35.6895],
     description:
-      "The intended target of Project X-Ray, a WWII-era U.S. plan to drop bats strapped with incendiary bombs over wooden cities.",
+      "The intended target of Project X-Ray, a WWII-era U.S. plan to drop bats strapped with incendiary bombs over wooden buildings to cause mass damage.",
     category: "Biological Weapons",
   },
   {
@@ -64,7 +64,7 @@ const locations: LocationData[] = [
     name: "Vietnam",
     coordinates: [105.8342, 21.0278],
     description:
-      "Jungles where the U.S. military and CIA scattered seismic 'tiger scat' and 'dog doo' transmitters to track troop movements.",
+      "The CIA used seismic detectors disguised as tiger scat to monitor for enemy troop movement during the Vietnam War, and the U.S. military deployed 'dog doo' transmitters to clandestinely mark enemy targets.",
     category: "Concealed Sensors",
   },
   {
@@ -72,7 +72,7 @@ const locations: LocationData[] = [
     name: "Western Australia",
     coordinates: [117.8485, -31.3411],
     description:
-      "The site of the 1932 'Great Emu War,' where the military deployed machine gunners against a mob of 20,000 emus destroying farmland.",
+      "The site of the 1932 Great Emu War, where the Australian military fruitlessly deployed a handful of soldiers to fight off an overpowering force of emus that were destroying farmland.",
     category: "Wildlife Conflict",
   },
   {
@@ -80,23 +80,15 @@ const locations: LocationData[] = [
     name: "Norway & Sweden",
     coordinates: [23.0049, 70.9756],
     description:
-      "Waters where Hvaldimir, the suspected Russian 'spy whale' equipped with a camera harness, was spotted.",
+      "Waters where Hvaldimir, the suspected Russian 'spy whale' equipped with a camera harness, had been spotted.",
     category: "Aquatic Ops",
-  },
-  {
-    id: "langley",
-    name: "Langley, Virginia, USA",
-    coordinates: [-77.1461, 38.9514],
-    description:
-      "CIA Headquarters, where officers spotted a hawk they jokingly suspected of being a 'robot spyhawk'.",
-    category: "Avian Ops",
   },
   {
     id: "key-west",
     name: "Key West, Florida, USA",
     coordinates: [-81.78, 24.5551],
     description:
-      "The location of a U.S. Naval Base where the CIA transferred funds to construct a secure dolphin training facility.",
+      "Location of the U.S. Naval Base, where the CIA bankrolled the construction of a secure dolphin training facility.",
     category: "Aquatic Ops",
   },
   {
@@ -104,7 +96,7 @@ const locations: LocationData[] = [
     name: "Area 51, Nevada, USA",
     coordinates: [-115.793, 37.2431],
     description:
-      "The highly classified testing site for the Project AQUILINE UAVs, mimicking birds.",
+      "The highly classified testing site for CIA's Project AQUILINE, which developed UAVs disguised as birds.",
     category: "Recon Robots",
   },
   {
@@ -112,7 +104,7 @@ const locations: LocationData[] = [
     name: "Mexico City, Mexico",
     coordinates: [-99.1332, 19.4326],
     description:
-      "The location of the new U.S. Embassy, which employs live falcons as a counterintelligence measure against pigeons.",
+      "The new U.S. Embassy facility employs live falcons to ward off pesty pigeons from the compound.",
     category: "Counter-Espionage",
   },
   {
@@ -120,7 +112,7 @@ const locations: LocationData[] = [
     name: "Panama Canal, Panama",
     coordinates: [-79.9224, 9.1448],
     description:
-      "Where the U.S. military tested their mosquito 'personnel detectors' in the jungle.",
+      "One of the testing sites for the U.S. military's attempt to use mosquitoes to detect nearby personnel.",
     category: "Biological Sensors",
   },
   {
@@ -128,7 +120,7 @@ const locations: LocationData[] = [
     name: "Moscow, Russia",
     coordinates: [37.6173, 55.7558],
     description:
-      "The site of several incidents, including dead rat decoys, the 'bug house' Embassy, and 'The Thing' hidden in the Great Seal.",
+      "The site of several espionage events, including the CIA deploying rats carcasses for dead drops, the Soviets installing so many electronic bugs in the under-construction U.S. embassy building that it was deemed unusable, and Russian school children delivering a hidden listening device to the American Ambassador.",
     category: "Concealments",
   },
   {
@@ -136,7 +128,7 @@ const locations: LocationData[] = [
     name: "Berlin, Germany",
     coordinates: [13.405, 52.52],
     description:
-      "The origin city of an offline, peer-to-peer file-sharing art movement utilizing USB dead drops in public spaces.",
+      "The origin of an offline, peer-to-peer file-sharing art movement utilizing USB dead drops in public spaces.",
     category: "Dead Drops",
   },
   {
@@ -144,7 +136,7 @@ const locations: LocationData[] = [
     name: "Saudi Arabia",
     coordinates: [45.0792, 23.8859],
     description:
-      "Where locals captured griffon vultures tagged by Israeli universities and accused them of being Zionist spies.",
+      "Where locals captured griffon vultures tagged by Israeli universities and accused them of being spies.",
     category: "Paranoia & Misconceptions",
   },
   {
@@ -152,7 +144,7 @@ const locations: LocationData[] = [
     name: "Shanghai, China",
     coordinates: [121.4737, 31.2304],
     description:
-      "The destination to which bugged Russian household appliances (like irons and kettles) were found connecting.",
+      "IT staff for the African Union has witnessed unusual connections from their facilities to Shanghai, resulting in mass data transfers at weird hours.",
     category: "Surveillance",
   },
   {
@@ -160,7 +152,7 @@ const locations: LocationData[] = [
     name: "Falaise, France",
     coordinates: [-0.1982, 48.8953],
     description:
-      "The site of a 1386 trial where a pig was dressed in human clothes and hanged for infanticide.",
+      "The site of a 1386 trial, where a pig was dressed in human clothes and hanged for the murder of a child.",
     category: "Historical Incident",
   },
 ];
@@ -181,7 +173,7 @@ export default function MapSection() {
             <span className="text-accent-amber mr-2 sm:mr-4 block sm:inline">
               Spotted:
             </span>
-            Clandestine Animal Activity
+            Animal Activity
           </h2>
         </div>
 
@@ -212,12 +204,12 @@ export default function MapSection() {
                     <Geography
                       key={geo.rsmKey}
                       geography={geo}
-                      fill="#2a3341"
-                      stroke="#42526b"
-                      strokeWidth={0.5}
+                      fill="#2d3d52"
+                      stroke="#4a5b73"
+                      strokeWidth={0.75}
                       style={{
                         default: { outline: "none" },
-                        hover: { fill: "#364254", outline: "none" },
+                        hover: { fill: "#3c4e68", outline: "none" },
                         pressed: { outline: "none" },
                       }}
                     />
@@ -237,6 +229,8 @@ export default function MapSection() {
                     pressed: { outline: "none" },
                   }}
                 >
+                  {/* Dark backing aura to guarantee contrast against the map fill for mobile/low brightness */}
+                  <circle r={7} fill="#0a0c10" opacity={0.75} className="transition-opacity duration-300" />
                   <circle
                     r={5}
                     fill={
@@ -254,7 +248,7 @@ export default function MapSection() {
                         ? "var(--color-accent-amber)"
                         : "transparent"
                     }
-                    strokeWidth={1}
+                    strokeWidth={1.5}
                     className={
                       activeLocation.id === loc.id ? "animate-pulse" : ""
                     }

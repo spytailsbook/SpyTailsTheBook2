@@ -11,7 +11,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="bg-accent-amber text-black px-6 py-2.5 text-[10px] font-bold uppercase tracking-widest hover:bg-white transition-colors inline-block text-center whitespace-nowrap"
         >
-          Pre-Order Now
+          Pre-Order
         </a>
         <div className="flex items-center gap-4 hidden sm:flex">
           <div className="w-2 h-2 rounded-full bg-accent-amber animate-[pulse_2s_ease-in-out_infinite] shadow-[0_0_8px_var(--color-accent-amber)]"></div>
