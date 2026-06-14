@@ -65,7 +65,7 @@ export default function Features() {
               className="bg-secondary-dark p-8 md:p-10 border-r border-b border-white/10 hover:bg-tertiary-dark transition-colors duration-300 group flex flex-col"
             >
               <span className="text-accent-amber font-mono text-[10px] sm:text-xs block mb-4 uppercase tracking-[0.2em] group-hover:text-white transition-colors">
-                {chapter.title}
+                {String(index).padStart(2, "0")} // {chapter.title}
               </span>
               <p className="text-sm text-text-muted leading-relaxed font-light font-sans group-hover:text-text-main transition-colors">
                 {chapter.description}
