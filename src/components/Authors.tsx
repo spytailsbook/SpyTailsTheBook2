@@ -16,15 +16,18 @@ export default function Authors() {
           </h2>
         </div>
         <div className="md:col-span-8 bg-secondary-dark border border-white/10 p-8 md:p-12 text-center">
-          <h3 className="text-lg md:text-xl font-mono text-white mb-8 uppercase tracking-[0.1em] border-b border-accent-amber/50 pb-4 inline-block">
-            Brandon Mohr{" "}
-            <span className="text-accent-amber px-2 text-sm">&</span> Mark
-            Sandel
-          </h3>
+          <div className="inline-block mb-8">
+            <h3 className="text-lg md:text-xl font-mono text-white uppercase tracking-[0.1em] pb-3">
+              Brandon Mohr{" "}
+              <span className="text-accent-amber px-2 text-sm">&</span> Mark
+              Sandel
+            </h3>
+            <div className="h-1 bg-accent-amber w-full shadow-[0_0_10px_var(--color-accent-amber)]"></div>
+          </div>
           <p className="text-base font-light text-text-muted leading-relaxed max-w-[800px] mx-auto text-left">
             The authors met as freshmen roommates in college, both pursued
-            career paths in intelligence, and currently serve as intelligence
-            analysts within the U.S. Intelligence Community. Their backgrounds
+            career paths in intelligence, and currently serve as analysts
+            within the U.S. Intelligence Community. Their backgrounds
             as intelligence professionals allowed them to navigate the book's
             reference materials as tradecraft insiders, uncovering hidden
             nuances and guiding readers through the complex animal spy programs.
