@@ -176,13 +176,16 @@ export default function MapSection() {
       className="py-12 md:py-24 px-4 sm:px-6 md:px-12 bg-primary-dark relative z-10 border-t border-white/10 mt-6 md:mt-12 block"
     >
       <div className="max-w-[1200px] mx-auto w-full">
-        <div className="mb-10 md:mb-14 flex items-center justify-between">
+        <div className="mb-10 md:mb-14">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
             <span className="text-accent-amber mr-2 sm:mr-4 block sm:inline">
               Spotted:
             </span>
             Animal Activity
           </h2>
+          <p className="text-text-muted font-light text-sm sm:text-base mt-4 leading-relaxed">
+            Click the points on the map to preview some of the animal-related stories that we highlight throughout the book!
+          </p>
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-0 xl:gap-8 border border-white/10 bg-secondary-dark relative">
