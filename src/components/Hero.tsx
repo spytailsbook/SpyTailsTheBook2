@@ -36,15 +36,12 @@ export default function Hero() {
 
           <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-8">
             <a
-              href="https://www.globepequot.com/imprint/prometheus-books/"
+              href="https://a.co/d/0fiY4fTb"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-accent-amber text-black px-10 py-3 text-xs font-bold uppercase tracking-widest hover:bg-white transition-colors inline-block text-center leading-tight"
             >
               Pre-Order
-              <span className="block text-[10px] mt-1 font-medium text-black/70 tracking-widest lowercase italic h-auto">
-                (coming soon)
-              </span>
             </a>
             <div className="text-[10px] text-text-muted leading-relaxed uppercase tracking-wider">
               Published by Globe Pequot
