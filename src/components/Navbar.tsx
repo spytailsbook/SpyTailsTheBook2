@@ -21,6 +21,12 @@ export default function Navbar() {
             Dossiers
           </a>
           <a
+            href="#newsletter"
+            className="text-text-main hover:text-accent-amber transition-colors"
+          >
+            Newsletter
+          </a>
+          <a
             href="#map"
             className="text-text-main hover:text-accent-amber transition-colors"
           >

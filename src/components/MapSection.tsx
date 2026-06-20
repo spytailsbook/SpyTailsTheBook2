@@ -173,7 +173,7 @@ export default function MapSection() {
   return (
     <section
       id="map"
-      className="py-12 md:py-24 px-4 sm:px-6 md:px-12 bg-primary-dark relative z-10 border-t border-white/10 mt-6 md:mt-12 block"
+      className="py-8 md:py-12 px-4 sm:px-6 md:px-12 bg-primary-dark relative z-10 border-t border-white/10 block"
     >
       <div className="max-w-[1200px] mx-auto w-full">
         <div className="mb-10 md:mb-14">

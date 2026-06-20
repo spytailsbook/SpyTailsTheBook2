@@ -36,9 +36,9 @@ export default function App() {
         <main>
           <Hero />
           <Features />
+          <Newsletter />
           <MapSection />
           <Authors />
-          <Newsletter />
         </main>
         <Footer />
       </div>

@@ -29,7 +29,7 @@ export default function Newsletter() {
   };
 
   return (
-    <section className="bg-primary-dark border-t border-white/10 py-16 px-6 md:px-12 relative z-10">
+    <section id="newsletter" className="bg-primary-dark border-t border-white/10 py-8 md:py-12 px-6 md:px-12 relative z-10">
       <div className="max-w-[800px] mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-white mb-4">
           Join the Intelligence Briefing
