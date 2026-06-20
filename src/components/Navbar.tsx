@@ -27,6 +27,12 @@ export default function Navbar() {
             Map
           </a>
           <a
+            href="#declassified"
+            className="text-text-main hover:text-accent-amber transition-colors"
+          >
+            Declassified Files
+          </a>
+          <a
             href="#authors"
             className="text-text-main hover:text-accent-amber transition-colors"
           >

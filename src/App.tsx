@@ -6,6 +6,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import DeclassifiedDocs from './components/DeclassifiedDocs';
 import MapSection from './components/MapSection';
 import Authors from './components/Authors';
 import Footer from './components/Footer';
@@ -36,6 +37,7 @@ export default function App() {
           <Hero />
           <Features />
           <MapSection />
+          <DeclassifiedDocs />
           <Authors />
         </main>
         <Footer />
