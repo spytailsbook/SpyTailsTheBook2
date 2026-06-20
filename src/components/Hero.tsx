@@ -1,6 +1,37 @@
+import { useState } from 'react';
 import coverImg from "../../assets/COVER.jpg";
 
 export default function Hero() {
+  const [email, setEmail] = useState('');
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email.includes('@')) {
+      return;
+    }
+    setStatus('loading');
+    
+    try {
+      await fetch(
+        'https://script.google.com/macros/s/AKfycbzZrcHpSYUqQiJPE-Ao_WRXnZm7pfZxkzN-hV5LmMNrfILheviSvlZ01YhWnbmlnAG-Fw/exec',
+        {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: new URLSearchParams({ email }).toString(),
+        }
+      );
+      setStatus('success');
+      setEmail('');
+    } catch (error) {
+      console.error('Submission error:', error);
+      setStatus('error');
+    }
+  };
+
   return (
     <section
       id="overview"
@@ -48,6 +79,45 @@ export default function Hero() {
               <br />
               Distributed by Simon & Schuster
             </div>
+          </div>
+
+          <div className="mt-12 border-t border-white/10 pt-8 sm:pr-12 md:max-w-xl lg:max-w-none">
+            <h3 className="text-sm font-bold tracking-tight text-white mb-2 uppercase">
+              Join the Intelligence Briefing
+            </h3>
+            <p className="text-text-muted font-light text-xs sm:text-sm mb-5 leading-relaxed">
+              Subscribe to our mailing list to receive updates about the book, exclusive animal espionage stories, and promotional offers.
+            </p>
+            
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your email address"
+                required
+                pattern=".*@.*"
+                title="Please ensure your email includes an '@' symbol."
+                className="flex-1 bg-secondary-dark border border-white/20 text-white px-4 py-2.5 text-sm focus:outline-none focus:border-accent-amber transition-colors placeholder:text-white/40"
+              />
+              <button
+                type="submit"
+                disabled={status === 'loading' || status === 'success'}
+                className="bg-accent-amber text-black px-6 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-white transition-colors disabled:opacity-70 whitespace-nowrap"
+              >
+                {status === 'loading' ? 'Sending...' : status === 'success' ? 'Subscribed' : 'Subscribe'}
+              </button>
+            </form>
+            {status === 'success' && (
+              <p className="text-accent-amber text-[11px] mt-3 uppercase tracking-widest font-mono">
+                Target acquired. You are on the list.
+              </p>
+            )}
+            {status === 'error' && (
+              <p className="text-red-500 text-[11px] mt-3 uppercase tracking-widest font-mono">
+                Mission failed. Could not add email to the list.
+              </p>
+            )}
           </div>
         </div>
 

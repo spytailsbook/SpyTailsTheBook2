@@ -8,7 +8,6 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import MapSection from './components/MapSection';
 import Authors from './components/Authors';
-import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import ReactGA from 'react-ga4';
 import { useEffect } from 'react';
@@ -36,7 +35,6 @@ export default function App() {
         <main>
           <Hero />
           <Features />
-          <Newsletter />
           <MapSection />
           <Authors />
         </main>
