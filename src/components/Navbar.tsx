@@ -34,7 +34,7 @@ export default function Navbar() {
           </a>
         </nav>
         <a
-          href="https://a.co/d/0fiY4fTb"
+          href="https://www.simonandschuster.com/books/Spy-Tails/Brandon-Mohr/9781493098071"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-accent-amber text-black px-4 py-2 sm:px-6 sm:py-2.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-widest hover:bg-white transition-colors inline-block text-center whitespace-nowrap"

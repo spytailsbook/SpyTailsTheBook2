@@ -67,7 +67,7 @@ export default function Hero() {
 
           <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-8">
             <a
-              href="https://a.co/d/0fiY4fTb"
+              href="https://www.simonandschuster.com/books/Spy-Tails/Brandon-Mohr/9781493098071"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-accent-amber text-black px-10 py-3 text-xs font-bold uppercase tracking-widest hover:bg-white transition-colors inline-block text-center leading-tight"
