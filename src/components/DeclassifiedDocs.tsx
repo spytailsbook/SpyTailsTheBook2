@@ -10,7 +10,7 @@ export default function DeclassifiedDocs() {
       id: 1,
       src: "/doc1.png",
       alt: "Project Aquiline Declassified Document 1",
-      caption: "Research and Develoment Study - Page 001"
+      caption: "Research and Development Study - Page 001"
     },
     {
       id: 2,
