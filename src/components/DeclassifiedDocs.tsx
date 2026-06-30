@@ -10,19 +10,19 @@ export default function DeclassifiedDocs() {
       id: 1,
       src: "/doc1.png",
       alt: "Project Aquiline Declassified Document 1",
-      caption: "Research and Development Study - Page 001"
+      caption: "Research and Development Study"
     },
     {
       id: 2,
       src: "/doc2.png",
       alt: "Project Aquiline Declassified Document 2",
-      caption: "Technical Draft - Page 002"
+      caption: "Technical Draft"
     },
     {
       id: 3,
-      src: "/doc3.png",
+      src: "/doc4.png",
       alt: "Project Aquiline Declassified Document 3",
-      caption: "Project Aquiline Table of Contents - Page 003"
+      caption: "Project AQUILINE prototype"
     }
   ];
 
@@ -33,9 +33,8 @@ export default function DeclassifiedDocs() {
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-4">
             <span className="text-accent-amber mr-4">Declassified</span>Files
           </h2>
-          <p className="text-text-muted max-w-2xl text-sm md:text-base leading-relaxed">
-            Review excerpts from actual declassified Central Intelligence Agency documents relating to Project Aquiline. 
-            Click on any document to enlarge.
+          <p className="text-text-muted text-sm md:text-base leading-relaxed">
+            Review excerpts from actual declassified documents relating to Project Aquiline, which was a CIA effort from the 1960s to create a UAV that looked like a real bird. Click on any document to enlarge.
           </p>
         </div>
 
