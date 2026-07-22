@@ -75,7 +75,7 @@ export default function Hero() {
               Pre-Order
             </a>
             <div className="text-[10px] text-text-muted leading-relaxed uppercase tracking-wider">
-              Published by Globe Pequot
+              Published by Globe Pequot & Prometheus Books
               <br />
               Distributed by Simon & Schuster
             </div>
