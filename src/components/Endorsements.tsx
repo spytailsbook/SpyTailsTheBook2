@@ -30,49 +30,42 @@ const endorsements: Endorsement[] = [
     quote:
       "Spy Tails, is a great read that ticks all the boxes – history, animal biology, and ethics, delivered with well-honed penmanship (the authors are so “purr-suasive”). In a world where birds, dogs, cats, and even insects are potential intelligence assets, only the truth can be this strange . . .",
     author: "Susan G. Friedman, Ph. D.",
-    title: "Professor Emeritus, Psychology Dept., Utah State University",
+    title: "Professor Emeritus, Psychology Dept., Utah State University | Founder of Behavior Works Zoo School",
   },
   {
     id: 4,
     quote:
       "Highly recommend this volume for intelligence enthusiasts wanting more than just entertaining vignettes, though the pieces are indeed entertaining.",
-    author: "",
-    title: "Former Senior Advisor to the Director of National Intelligence",
+    author: "Dr. Barry Zulauf",
+    title: "Georgetown University, President Emeritus of IAFIE",
   },
   {
     id: 5,
     quote:
       "Spy Tails is a fascinating, well-researched look at the remarkable creativity that has always been part of intelligence work. From dolphins to robotic dogs, the stories are engaging and surprising, and the authors' well-placed humor and puns make reading even more enjoyable. If this is what has now been revealed, just imagine what stories are still waiting to be told.",
     author: "J.C. Lintzenich",
-    title: "Former Senior Advisor to the Director of National Intelligence",
+    title: "Former Senior Advisor to the Director of National Intelligence | Colonel, U.S. Army Military Intelligence (Retired)",
   },
   {
     id: 6,
-    quote:
-      "Highly recommend this volume for intelligence enthusiasts wanting more than just entertaining vignettes, though the pieces are indeed entertaining ... These thoroughly documented reviews cover well-known historical uses as well as more bizarre experiments with animals in espionage, counterespionage, and deception.",
-    author: "Dr. Barry Zulauf",
-    title: "Georgetown University, President Emeritus of IAFIE",
-  },
-  {
-    id: 7,
     quote:
       "This well-written and well-researched book is more than just a good read. Exposing the history of the use and abuse of animals by spy agencies that took off during the Cold War and continues to the present, Spy Tails is packed with incredible true stories, some sad, some funny, some infuriating, but all fascinating. Fair warning: after reading this book, you’ll never feel the same when you notice your pet staring with ears turned towards you!",
     author: "Dave Lindorff",
     title: "Izzy Award-winning author of Spy for No Country",
   },
   {
-    id: 8,
+    id: 7,
     quote:
       "The story of this incredible clandestine menagerie, documented in Spy Tails by Brandon Mohr and Mark Sandel, will astound seasoned intelligence officers and delight true-espionage readers. Spy Tails’ comprehensive survey reveals the remarkably diverse capabilities of animals to secretly collect information as well as conduct lethal operations…. A thoughtful, balanced perspective insisting on proper respect for animal life in all forms, especially when national security is at stake.",
     author: "Robert Wallace",
-    title: "Retired CIA Director of Technical Service",
+    title: "Retired CIA Director of Technical Service | Author of Spycraft: The Secret History of the CIA’s Spytechs from Communism to al-Qaeda",
   },
   {
-    id: 9,
+    id: 8,
     quote:
       "Despite the punny title, Spy Tails is a serious original work of intelligence history, current analysis, and futuristic scenarios that avoids sensationalism to present a detailed account of efforts to use animals for intelligence purposes and a probing assessment of the ethical and practical issues arising from fauna warfare in testing and deployment. Leveraging a wide variety of accessible sources with exemplary professionalism and an insider's acumen, intelligence analysts Mohr and Sandel get the scholarship, terminology, tradecraft, and technology right in creating what should be a standard history of this fascinating subject.",
     author: "Paul Hollingsworth",
-    title: "President of the Association of Former Intelligence Officers",
+    title: "President of the Association of Former Intelligence Officers (AFIO)",
   },
 ];
 
