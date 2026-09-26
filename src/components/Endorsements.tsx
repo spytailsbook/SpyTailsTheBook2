@@ -72,7 +72,7 @@ const endorsements: Endorsement[] = [
     quote:
       "Compelling and highly entertaining, this study of the evolving relationship between biological agents, technological systems, and intelligence collection has much to offer readers of intelligence and military history, alike.",
     author: "Jennifer Siegel",
-    title: "Professor of History and Public Policy, Duke University",
+    title: "Bruce R. Kuniholm Distinguished Professor of History and Public Policy, Duke University",
   },
 ];
 
