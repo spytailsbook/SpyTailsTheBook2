@@ -67,6 +67,13 @@ const endorsements: Endorsement[] = [
     author: "Paul Hollingsworth",
     title: "President of the Association of Former Intelligence Officers (AFIO)",
   },
+  {
+    id: 9,
+    quote:
+      "Compelling and highly entertaining, this study of the evolving relationship between biological agents, technological systems, and intelligence collection has much to offer readers of intelligence and military history, alike.",
+    author: "Jennifer Siegel",
+    title: "Professor of History and Public Policy, Duke University",
+  },
 ];
 
 export default function Endorsements() {
